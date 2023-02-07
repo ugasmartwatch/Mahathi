@@ -1,9 +1,10 @@
 # BangleApps
 
-PUCK TEST repository: consists of my notes and research findings from completing certain tutorials.
+1) *** PUCK TEST repository: consists of my notes and research findings from completing certain tutorials.
 
-**PuckTest tutorial data: 
-test.html file
+--> PuckTest tutorial data: 
+ 
+    ****test.html file*****
 **
 Notes/Findings:
 - Can add multiple devices and connect to a website --> Using Puck.connect command
@@ -23,4 +24,4 @@ GOAL: find how to develop and transfer data between watch and website in order t
 - Puck.connect(callback) --> TO SEND AND RECEIVE DATA from puck.js
 **
 
-BangleSurvey contains files to explore and create a survey notification for parents to display on children bangle watches.
+2) BangleSurvey contains files to explore and create a survey notification for parents to display on children bangle watches.
