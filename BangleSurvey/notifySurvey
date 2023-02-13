@@ -19,12 +19,12 @@ function setState(st) {
       drag = null;
       if (Math.abs(dx)>Math.abs(dy)+10) {
         // horizontal
-        E.showMessage("Oof","ignored parents");
+        E.showMessage("Oof","You've ignored parents' notif");
       } else if (Math.abs(dy)>Math.abs(dx)+10) {
         // vertical
             setState(states.lunchnotify1);
         
-        require("notify").show({id:"msg", title:"Lunch Reminder", body:"Did you eat your fruits? Swipe up/down-YES! left/right-No:("});
+        require("notify").show({id:"msg", title:"Lunch Remind", body:"Did you eat your fruits? Swipe up/down-YES! left/right-No:("});
         
           lunchReminder();
         
@@ -75,7 +75,7 @@ function lunchReminder() {
 setState(states.init);
 if(state == states.init) { 
  E.showMessage("Got a message from your parent!!");
- E.showMessage("Swipe up/down\n SEE \n\nSwipe left/right\n+/- IGNORE \n\nPress Btn1 to ","NEW PARENT NOTIF!"); 
+ E.showMessage("Press Btn1! \n\n Swipe up/down\n SEE \n\nSwipe left/right\n+/- IGNORE  ","NEW PARENT NOTIF!"); 
   setState(states.notify1);
 }
 
