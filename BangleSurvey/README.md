@@ -13,7 +13,7 @@ NotifySurvey FILE:
         -  to complete a TIMED survey that pops up at certain times asking appropriate questions according to time of day
 - I am  working on notifySurvey which is the JS code of how to format reminders and send a lunch reminder to a kid's watch.
 - By manipulating and using the notify library I was able to keep up a reminder(message) format without it disappearing after a short second. 
--GOALS (2/14/23):
+- GOALS (2/14/23):
          - Find a way to change screen from NOTIFICATION screen by swipe up/down/left/right. Currently, the notification screen remains and does not   disappear upon swiping.
          
         
