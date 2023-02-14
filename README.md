@@ -25,3 +25,4 @@ GOAL: find how to develop and transfer data between watch and website in order t
 **
 
 2) BangleSurvey contains files to explore and create a survey notification for parents to display on children bangle watches.
+   - within BangleSurvey I have a ParentalRemindPlatform folder, where I created a test.html file of a static UI. It is a platform where parents can send default or custom reminders to their children's watches. (2/14/22)
