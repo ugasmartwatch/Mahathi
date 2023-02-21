@@ -42,5 +42,7 @@ Dashboard tutorial (Web Bluetooth tutorial) -- Notes/Findings:
 ***Achievements:***
 - Managed to develop connection between watch and website, but only so far as a LED light displaying when button pressed to send reminder.
 - bangleSurvey.js file: Modified survey to include buttons and swipes using layout.
+- Tried to use connection.write to display notifications on watch from website - Fail so far
+- Exploring how to use the BLE GATT characteristics to form connection bw website and watch
 
     
