@@ -27,13 +27,14 @@ NOTES/FINDINGS:
    - I got it to where you can swipe up/down/right/left on a message screen to take it to the reminder/notification screen, but i believe there i something preventing the you to swipe up/down/right/left and move to another screen FROM the notification screen.
    
 ***WEEK 8/9 ( 2/17 to 2/21)***
-GOALS:
+> GOALS:
 - Develop connection bw website and watch 
 - Aiming to develop connection via BLE to send notifications/surveys
 - Exploring with the Bluetooth GATT CHARACTERISTICS
 - Modifying notification format to look like survey with buttons and swipes to move to next question (CHECK)
 - Modify website UI (CHECK)
-Achievements:
+
+> Achievements:
 - Managed to develop connection between watch and website, but only so far as a LED light displaying when button pressed to send reminder.
 - bangleSurvey.js file: Modified survey to include buttons and swipes using layout.
 
