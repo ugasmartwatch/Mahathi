@@ -19,3 +19,6 @@ NotifySurvey FILE:
         
 ParentalRemindPlatform FILE:
 - ParentalRemindPlatform folder, where I created a test.html file of a static UI. It is a platform where parents can send default or custom reminders to their children's watches. 
+
+BANGLESurvey FILE:
+- Used a combination of buttons (using Layout), and swipes to create survey of questions.
