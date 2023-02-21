@@ -6,7 +6,11 @@ Different types of surveys (in progress) :
 - MEAL SURVEY 
 - WEATHER (CLOTHING) SURVEY
 
+<img width="1415" alt="image" src="https://user-images.githubusercontent.com/101474281/220421898-b045dec9-e769-4bc0-bd3c-ca6659c49974.png">
 
+
+
+INITIAL DRAFT:
 
 <img width="1385" alt="image" src="https://user-images.githubusercontent.com/101474281/218373292-e4122dc8-19f8-44c2-a3c8-217652f2e859.png">
 
