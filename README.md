@@ -45,4 +45,17 @@ Dashboard tutorial (Web Bluetooth tutorial) -- Notes/Findings:
 - Tried to use connection.write to display notifications on watch from website - Fail so far
 - Exploring how to use the BLE GATT characteristics to form connection bw website and watch
 
-    
+> WEEK 10/11 (3/6 and 3/14) 
+**GOALS*** 
+- Store data of responses in json 
+- Send custom reminder to watch 
+- Add Snooze Function/Page to reminder
+****PROBLEMS****
+- Trying to snooze page for a set time then return to introWelcome Survey page
+- Was trying to store values returned from function in json - Learned to store specific json data in specific functions 
+using the following command:
+**require("Storage").writeJSON("fileName",[json to add]);**
+-Added snooze function but not going back to intropage after setTimeOut
+***Achievements: ****
+-Incorporated json to call in functions
+-added snooze page
