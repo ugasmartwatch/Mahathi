@@ -46,6 +46,7 @@ Dashboard tutorial (Web Bluetooth tutorial) -- Notes/Findings:
 - Exploring how to use the BLE GATT characteristics to form connection bw website and watch
 
 > WEEK 10/11 (3/6 and 3/14) 
+
 **GOALS*** 
 - Store data of responses in json 
 - Send custom reminder to watch 
