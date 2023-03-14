@@ -58,6 +58,6 @@ using the following command:
 **require("Storage").writeJSON("fileName",[json to add]);**
 -Added snooze function but not going back to intropage after setTimeOut
 
-***Achievements: ****
+***Achievements:****
 -Incorporated json to call in functions
 -added snooze page
