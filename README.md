@@ -32,7 +32,7 @@ Dashboard tutorial (Web Bluetooth tutorial) -- Notes/Findings:
    
 > WEEK 8/9 ( 2/17 to 2/21)
 
-***GOALS:***
+***GOALS:**
 - Develop connection bw website and watch 
 - Aiming to develop connection via BLE to send notifications/surveys
 - Exploring with the Bluetooth GATT CHARACTERISTICS
@@ -47,7 +47,7 @@ Dashboard tutorial (Web Bluetooth tutorial) -- Notes/Findings:
 
 > WEEK 10/11 (3/6 and 3/14)  
 
-**GOALS*** 
+**GOALS** 
 - Store data of responses in json 
 - Send custom reminder to watch 
 - Add Snooze Function/Page to reminder
@@ -67,6 +67,6 @@ using the following command:
 
 > WEEK 12/13 (3/20 and 3/14) 
 
-**Goals***
+**Goals**
 - get website to send reminder using sched.js library
 - find way to send json file over
