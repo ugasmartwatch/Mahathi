@@ -60,10 +60,10 @@ using the following command:
 - learning how to update append json to file 
 -Added snooze function but not going back to intropage after setTimeOut
 
-***Achievements:****
--Incorporated json to call in functions
--Json is now appending to bangleSurvey.json file after function calls
--added snooze page
+***Achievements:***
+- Incorporated json to call in functions
+- Json is now appending to bangleSurvey.json file after function calls
+- added snooze page
 
 > WEEK 12/13 (3/20 and 3/14) 
 
