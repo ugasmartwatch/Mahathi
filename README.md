@@ -65,7 +65,7 @@ using the following command:
 - Json is now appending to bangleSurvey.json file after function calls
 - added snooze page
 
-> WEEK 12/13 (3/20 and 3/14) 
+> WEEK 12/13 (3/20 and 3/27) 
 
 **Goals**
 - get website to send reminder using sched.js library
