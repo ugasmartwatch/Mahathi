@@ -73,3 +73,4 @@ using the following command:
 > WEEK 14/15
 - Working on the ugasmartwatch website 
 - added FINALBangleSurvey Folder with final html and js code for custom survey on bangle watch
+- created UGAWATCHWEBSITE folder with my ideas for a ugasmartwatch website with the bangle apps/options we have to offer
