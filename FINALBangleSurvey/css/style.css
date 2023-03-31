@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to bottom, #cc9900 0%, #9999ff 96%);
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    padding: 6px;
+    text-align: center;
+  }
+
+  .col-2 {
+    margin: 20px;
+  }
+
+  .col-1 {
+    margin: 20px;
+  }
+
+  .submitbox {
+    width: 350px;
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+    background-color: gray;
+    text-align: center;
+    font-size: 30px;
+    font-color: #cc9900;
+  }
+#demo {
+    
+    width: 350px;
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+    background-color: gray;
+    font-size: 15px;
+    font-color: #cc9900;
+ 
+}
