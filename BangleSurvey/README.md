@@ -22,3 +22,4 @@ ParentalRemindPlatform FILE:
 
 BANGLESurvey FILE:
 - Used a combination of buttons (using Layout), and swipes to create survey of questions.
+- HAS COMPLETED CODE OF WHOLE SURVEY LAYOUT AND INPUTS TO A JSON FILE CALLED BANGLESURVEY.JSON
