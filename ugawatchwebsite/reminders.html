@@ -1,0 +1,64 @@
+
+<html>
+ 
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="css/remindersStyle.css" />
+    <title>Custom Reminders/Surveys</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </head>
+
+ <body>
+
+  <div class = "divwhite">
+    <div class = "titleBar">
+        <div class = "divwhite"></div>
+      <div class = "row">
+        <div class="col-3">
+          <button type="button" href = "index.html" class="btn btn-danger">Back</button>
+        </div>
+        <div class="col-6">
+          <h1>Parent Control</h1>
+        </div>
+        <div class="col-3">
+          <button class="btn btn-primary" id="upload" onclick="Puck.write('LED1.set();\n')">Upload</button>
+        </div>
+        <p></p>
+      </div>      
+    </div>
+  </div>
+  <div class="row">  
+ <div class="col-3">
+      <h2 class="col-6">Time:</h2>
+        <input type="time" id="timeValue" placeholder="Enter Minutes" required>
+  </div>
+<div class="col-3"> 
+      <h2 class="col-6">Survey/Reminder:</h2>
+       <input type="text" id="reminderValue" placeholder="Enter Reminder" required>
+</div>
+<div class="col-3">
+  <h2 class="col-6">Date:</h2>
+    <input type="date" id="rpValue" placeholder="Choose date" required>
+</div>
+<div class="col-3">
+  <h2 class="col-6">RP Pattern:</h2>
+    <input type="text" id="rpValue" placeholder="Enter Repeat Pattern" required>
+</div>
+<div class ="row">
+  <div class="col-12">
+         <button type="button" class="btn btn-primary">Add (+)</button>
+         <button type="button" class="btn btn-primary">Remove (-)</button> 
+</div> 
+    
+   
+   
+
+  </div>
+
+
+   
+</body>
+
+</html>    
