@@ -1,4 +1,5 @@
 > CustomReminder.html: has the html format of the reminder page for ParentalControl
+
 > BangleSurvey.js
 HAS COMPLETED JAVASCRIPT CODE OF A SURVEY WITH LAYOUT, SNOOZE FUNC, AND CONFIRMATION ASPECTS, AND IT LOADS ANSWERS TO A JSON FILE CALLED BANGLESURVEY.JSON
 
