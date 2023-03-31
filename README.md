@@ -70,3 +70,6 @@ using the following command:
 **Goals**
 - get website to send reminder using sched.js library
 - find way to send json file over
+> WEEK 14/15
+- Working on the ugasmartwatch website 
+- added FINALBangleSurvey Folder with final html and js code for custom survey on bangle watch
