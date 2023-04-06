@@ -10,7 +10,7 @@
   <script src="reminders.js"> </script>
     <link rel="stylesheet" type="text/css" href="css/remindersStyle.css" />
  </head>
- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+ <nav class="navbar  navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">UGASmartWatch</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,14 +19,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="https://mgjslearn.github.io/BangleApps/PuckTest/ugawatchwebsite/index.html">Home</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             ParentalControl
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="reminders.html">Reminder</a></li>
+            <li><a class="dropdown-item" href="https://mgjslearn.github.io/BangleApps/PuckTest/ugawatchwebsite/reminders.html">Reminder</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -39,8 +39,14 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#"> Choose Pet Avatar</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            BangleGames
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Heart Rate Game</a></li>
           </ul>
         </li>
       </ul>
@@ -60,7 +66,7 @@
            <button type="button" href = "ugawatchwebsite/index.html" class="btn btn-primary">Back</button>
          </div>
          <div class="col-6">
-           <h1>Parent Control</h1>
+           <h1>Custom Survey/Reminders</h1>
          </div>
          <div class="col-3">
            <button class="btn btn-primary" id="upload" onclick="Puck.write('LED1.set();\n')">Upload</button>
@@ -71,23 +77,27 @@
    </div>
    <div class="row">  
      <div class="col-3">
-        <h2 class="col-6">Time:</h2>
+        <h4 class="col-6">Time:
         <input type="time" id="time" placeholder="Enter Time" required>
+         </h4>
       </div>
       <div class="col-3"> 
-         <h2 class="col-6">Survey/Reminder:</h2>
+         <h4 class="col-6">Survey/Reminder:
           <input type="text" id="detail" placeholder="Enter Reminder" required>
+          </h4>
       </div>
       <div class="col-3">
-          <h2 class="col-6">Date:</h2>
+          <h4 class="col-6">Date:
           <input type="date" id="date" placeholder="Choose date" required>
+           </h4>
       </div>
       <div class="col-3">
-          <h2 class="col-6">RP Pattern:</h2>
-          <input type="text" id="repeat" placeholder="Enter Repeat Pattern" required>
+          <h4 class="col-6">RP Pattern:
+          <input type="text" id="repeat" placeholder="Enter" required>
+           </h4>
       </div>
       <div class ="row">
-        <div class="col-12">
+        <div class="col-12" id = "ar">
             <button type="button" onclick="addAlarm()" class="btn btn-primary">Add (+)</button>
             <button type="button" class="btn btn-danger">Remove (-)</button> 
       </div> 
