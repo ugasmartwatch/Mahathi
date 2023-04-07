@@ -60,19 +60,48 @@
   </nav>
   
  <body>
-  <div class ="row">
-    <div class="homecontent">
-      <p> This website contains apps and other tools to customize and better the virtual pet experience for your child's Bangle.js watch. </p>
-   </div>
-   <div class="row homeElements">
-        <div class = "col-6">
-          <span class="border border-primary">  Activity Tracker Graph </span> 
-       </div>
-       <div class = "col-6">
-          <span class="border border-danger">  Last Synced: __ </span> 
-       </div>
-    </div>
+  <div class ="row">  
+   <div class="col-12">
+     <div class="row homecontent">
+       <h5> Demo - User Profile</h5>
+       <div class="homeElements">
+         <div class="row">
+           <div class="col-12">
+             <h3>Welcome User __! </h3>
+           </div>
+         </div>
+         <div class="row">
+          <!--Activity stats graph-->
+           <div class="col-md-6">
+             <div class="card">
+               <div class="card-body">
+                 <h5 class="card-title">Activity Graph</h5>
+                 <img src="activity-graph.png" alt="Activity Graph" class="img-fluid">
+               </div>
+             </div>
+           </div>
+           <!--Batter and Last Synced-->
+           <div class="col-md-3">
+             <div class="card bg-danger text-white">
+               <div class="card-body">
+                 <h5 class="card-title">Battery Percentage: 85%</h5>
+               </div>
+              <div class="card-body">
+                 <h5 class="card-title">Last Synced Date & Time </h5>
+              </div>
+             </div>
+           </div>
+        <!--ShortCuts from Home-->
+          <div class="col-md-3">
+           <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+             <button type="button" class="btn btn-warning mt-3">Reminder Shortcut</button>
+             <button type="button" class="btn btn-warning mt-3">Shortcut #2</button>
+           </div>
+         </div>
+        </div> 
+      </div> <!--homeElements Div-->
+    </div> <!--homecontent div-->
+
   </div>
  </body>
 </html>
-
